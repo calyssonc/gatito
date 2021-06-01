@@ -11,6 +11,5 @@ Reactotron.configure().useReactNative().connect();
 console.tron = Reactotron;
 
 export default function App() {
-  console.log('teste');
   return <TelaPadrao><Rotas/></TelaPadrao>;
 }
